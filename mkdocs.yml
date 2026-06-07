@@ -1,0 +1,127 @@
+site_name: Full Stack Data Science with GenAI and Agentic AI Notes
+site_description: FSDS with GenAI and Agentic AI Notes
+plugins:
+  - search
+
+theme:
+  name: material
+
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+nav:
+- Home: index.md
+- Python Refresher with AI:
+    - 1. Basic Python:
+        - 1. Numbers, Arithmetic Operators: python/numbers-and-arithmetic-operators.md
+        - 2. Identifiers (OR) Variables: python/identifiers-and-variables.md
+        - 3. Data Types: python/data-types.md
+        - 4. String Operations  : python/string-operations.md
+        - 5. Type casting: python/type-casting.md
+        - 6. Oprators in Python: python/operators.md
+        - 7. Number Systems: python/functions.md
+        - 8. Bitwise Operators: python/oop.md
+        - 9. Predefined Functions: python/oop.md
+        - 10. Import Packages: python/import-packages.md
+    - 2. Advanced Python:
+        - Data Structures:
+            - Lists: python/data-structures/lists.md
+            - Tuples: python/data-structures/tuples.md
+            - Sets: python/data-structures/sets.md
+            - Dictionaries: python/data-structures/dictionaries.md
+            - Ranges: python/data-structures/ranges.md
+        - Built-in Functions:
+            - Map: python/built-in-functions/map.md
+            - Filter: python/built-in-functions/filter.md
+            - Reduce: python/built-in-functions/reduce.md
+            - Zip: python/built-in-functions/zip.md
+            - Enumerate: python/built-in-functions/enumerate.md 
+        - Printing and Formatting:
+            - Print Function: python/printing/print-function.md
+            - String Formatting: python/printing/string-formatting.md
+        - Conditional Statements:
+            - If-Else: python/conditional-statements/if-else.md
+            - Elif: python/conditional-statements/elif.md
+            - Nested If: python/conditional-statements/nested-if.md
+        - Loops:
+            - For Loop: python/loops/for-loop.md
+            - While Loop: python/loops/while-loop.md
+            - Nested Loops: python/loops/nested-loops.md
+        - Functions:
+            - Defining Functions: python/functions/defining-functions.md
+            - Arguments and Parameters: python/functions/arguments-and-parameters.md
+            - Return Statement: python/functions/return-statement.md
+            - Lambda Functions: python/functions/lambda-functions.md
+            - Recursion: python/functions/recursion.md
+        - Object-Oriented Programming (OOP):
+            - Classes and Objects: python/oop/classes-and-objects.md
+            - Inheritance: python/oop/inheritance.md
+            - Polymorphism: python/oop/polymorphism.md
+            - Encapsulation: python/oop/encapsulation.md
+            - Abstraction: python/oop/abstraction.md
+    - 3. Python Libraries:
+        - NumPy: python/libraries/numpy.md
+        - Pandas: python/libraries/pandas.md
+        - Matplotlib: python/libraries/matplotlib.md
+        - Seaborn: python/libraries/seaborn.md
+        - Scikit-learn: python/libraries/scikit-learn.md
+        - TensorFlow: python/libraries/tensorflow.md
+        - PyTorch: python/libraries/pytorch.md  
+    - 4. NumPy and Pandas:
+        - NumPy Arrays: python/numpy/arrays.md
+        - Pandas DataFrames: python/pandas/dataframes.md
+    - 5. Data Visualization:
+        - Matplotlib: python/data-visualization/matplotlib.md
+        - Seaborn: python/data-visualization/seaborn.md
+    - 6. Machine Learning with Python:
+        - Scikit-learn: python/machine-learning/scikit-learn.md
+        - TensorFlow: python/machine-learning/tensorflow.md
+        - PyTorch: python/machine-learning/pytorch.md
+    - 7. Deep Learning with Python:
+        - TensorFlow: python/deep-learning/tensorflow.md
+        - PyTorch: python/deep-learning/pytorch.md
+    - 8. Generative AI with Python:
+        - Hugging Face Transformers: python/generative-ai/hugging-face-transformers.md
+        - OpenAI API: python/generative-ai/openai-api.md
+    - 9. Agentic AI with Python:
+        - AI Agents: python/agentic-ai/ai-agents.md
+    
+- Applied Data Science with Python:
+    - Arrays: numpy/arrays.md
+
+- Machine Learning:
+    - DataFrames: pandas/dataframe-basics.md
+
+- Deep Learning Specialization:
+    - Introduction: ml/introduction.md
+
+- Generative AI:
+    - LLM Basics: genai/llm-basics.md
+
+- Agentic AI:
+    - AI Agents: agentic-ai/ai-agents.md
+
+- Projects:
+    - Analytics Engine: projects/analytics-engine.md
+
+- About:
+      - About Roja: about.md
+      - Learning Roadmap: roadmap.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rojaranirepalle
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/repallerojarani
