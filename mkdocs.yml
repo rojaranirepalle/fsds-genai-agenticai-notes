@@ -1,10 +1,19 @@
-site_name: Full Stack Data Science with GenAI and Agentic AI Notes
+site_name: FSDS with Roja
+# Full Stack Data Science with GenAI and Agentic AI Notes
 site_description: FSDS with GenAI and Agentic AI Notes
 plugins:
   - search
 
 theme:
   name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  features:
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - navigation.top
 
   palette:
     - scheme: default
@@ -18,6 +27,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light mode
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
 - Home: index.md
