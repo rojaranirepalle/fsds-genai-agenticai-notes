@@ -49,18 +49,19 @@ Combining business expertise, technology experience, and modern AI capabilities 
 - Python
 - NumPy
 - Pandas
+- SQL
 
 ### 🚧 In Progress
 
 - Machine Learning
-- Analytics Engine
-
-### ⏳ Upcoming
-
 - Deep Learning
 - Computer Vision
 - NLP
 - Generative AI
+- Analytics Engine
+
+### ⏳ Upcoming
+
 - Agentic AI
 
 </div>
@@ -74,11 +75,12 @@ Combining business expertise, technology experience, and modern AI capabilities 
 | Python | 100% |
 | NumPy | 100% |
 | Pandas | 100% |
-| Machine Learning | 30% |
-| Deep Learning | 0% |
-| Computer Vision | 0% |
-| NLP | 0% |
-| Generative AI | 10% |
+| SQL | 90% |
+| Machine Learning | 85% |
+| Deep Learning | 60% |
+| Computer Vision | 70% |
+| NLP | 40% |
+| Generative AI | 50% |
 | Agentic AI | 5% |
 
 </div>
@@ -101,7 +103,7 @@ Python-based analytics platform featuring:
 - Pandas Analytics
 - Streamlit Dashboard
 
-**Current Status:** Phase 1.4
+**Current Status:** Phase 1 shipped (parsing engine, error categorization) — REST APIs and ML anomaly detection next
 
 ---
 
@@ -158,7 +160,7 @@ https://github.com/rojaranirepalle
 
 ### LinkedIn
 
-Add your LinkedIn profile URL
+https://www.linkedin.com/in/repallerojarani
 
 ---
 
