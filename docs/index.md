@@ -20,11 +20,11 @@ hide:
 
 ---
 
-<div class="home-dashboard">
+<div class="home-dashboard" markdown="1">
 
-<div class="home-dashboard-grid">
+<div class="home-dashboard-grid" markdown="1">
 
-<div class="home-card">
+<div class="home-card" markdown="1">
 
 ## 👋 About Me
 
@@ -40,7 +40,7 @@ Combining business expertise, technology experience, and modern AI capabilities 
 
 </div>
 
-<div class="home-card">
+<div class="home-card" markdown="1">
 
 ## 🛣️ Learning Roadmap
 
@@ -66,22 +66,22 @@ Combining business expertise, technology experience, and modern AI capabilities 
 
 </div>
 
-<div class="home-card">
+<div class="home-card" markdown="1">
 
 ## 📊 Progress Tracker
 
-| Topic | Progress |
-|--------|----------|
-| Python | 100% |
-| NumPy | 100% |
-| Pandas | 100% |
-| SQL | 90% |
-| Machine Learning | 85% |
-| Deep Learning | 60% |
-| Computer Vision | 70% |
-| NLP | 40% |
-| Generative AI | 50% |
-| Agentic AI | 5% |
+<div class="progress-list">
+<div class="progress-row"><span class="progress-name">Python</span><span class="progress-track"><i style="width:100%"></i></span><span class="progress-pct">100%</span></div>
+<div class="progress-row"><span class="progress-name">NumPy</span><span class="progress-track"><i style="width:100%"></i></span><span class="progress-pct">100%</span></div>
+<div class="progress-row"><span class="progress-name">Pandas</span><span class="progress-track"><i style="width:100%"></i></span><span class="progress-pct">100%</span></div>
+<div class="progress-row"><span class="progress-name">SQL</span><span class="progress-track"><i style="width:90%"></i></span><span class="progress-pct">90%</span></div>
+<div class="progress-row"><span class="progress-name">Machine Learning</span><span class="progress-track"><i style="width:85%"></i></span><span class="progress-pct">85%</span></div>
+<div class="progress-row"><span class="progress-name">Deep Learning</span><span class="progress-track"><i style="width:60%"></i></span><span class="progress-pct">60%</span></div>
+<div class="progress-row"><span class="progress-name">Computer Vision</span><span class="progress-track"><i style="width:70%"></i></span><span class="progress-pct">70%</span></div>
+<div class="progress-row"><span class="progress-name">NLP</span><span class="progress-track"><i style="width:40%"></i></span><span class="progress-pct">40%</span></div>
+<div class="progress-row"><span class="progress-name">Generative AI</span><span class="progress-track"><i style="width:50%"></i></span><span class="progress-pct">50%</span></div>
+<div class="progress-row"><span class="progress-name">Agentic AI</span><span class="progress-track"><i style="width:5%"></i></span><span class="progress-pct">5%</span></div>
+</div>
 
 </div>
 

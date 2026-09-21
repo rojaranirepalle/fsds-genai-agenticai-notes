@@ -137,3 +137,8 @@ extra:
 
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/repallerojarani
+
+markdown_extensions:
+  - md_in_html
+  - tables
+  - attr_list
